@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "533088059370",
+    "project_id": "tcb-todo-list",
+    "storage_bucket": "tcb-todo-list.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533088059370:android:65f4684e1de1fb2615bc93",
+        "android_client_info": {
+          "package_name": "com.dtafox.my_todolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-qbRuWZ0imZzItYDYnyrYsjC6aMGN9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533088059370:android:c9ad064ed2fa64ce15bc93",
+        "android_client_info": {
+          "package_name": "com.dtafox.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-qbRuWZ0imZzItYDYnyrYsjC6aMGN9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533088059370:android:27099e52d708c4d715bc93",
+        "android_client_info": {
+          "package_name": "com.dtafox.todolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg-qbRuWZ0imZzItYDYnyrYsjC6aMGN9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

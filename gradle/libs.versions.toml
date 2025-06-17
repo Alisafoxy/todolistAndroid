@@ -10,6 +10,7 @@ constraintlayout = "2.2.1"
 navigation = "2.7.7"
 firebaseAuth = "22.3.0"
 firebaseFirestore = "25.1.0"
+googleGmsGoogleServices = "4.4.2"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -27,4 +28,5 @@ firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 navigation-safe-args = { id = "androidx.navigation.safeargs", version.ref = "navigation" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
 
