@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.dtafox.myapplication.ui.TaskListFragment"
+        android:label="Task List" >
+        <action
+            android:id="@+id/action_taskListFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_taskListFragment_to_taskDetailFragment"
+            app:destination="@id/taskDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.dtafox.myapplication.ui.TaskDetailFragment"
+        android:label="Task Detail" />
+
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.dtafox.myapplication.ui.AddTaskFragment"
+        android:label="Add Task" />
+</navigation>
